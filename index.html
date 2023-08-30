@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bits of Good Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background with gradient -->
+  <div class="background">
+    <div class="page-container">
+      <!-- Profile picture container -->
+      <div class="profile-pic-container" id="profile-pic-container">
+        <img src="image.jpg" alt="Profile Picture" class="profile-pic" id="profile-pic">
+      </div>
+      <!-- Info card -->
+      <div class="card">
+        <div class="content">
+          <h1>Hello, I'm Shubham Jha</h1>
+          <p>I am a second-year Computer Science major.</p>
+          <p>I am truly passionate about utilizing technology for the betterment of our society.</p>
+          <p>Alongside my uncle, I initiated a non-profit in my hometown in India, where we provide mentorship to underserved children, helping them acquire essential English language proficiency and fundamental computer literacy.</p>
+          <p>In my leisure time, I indulge in playing video games, going for runs, and spending quality moments with my friends and family.</p>
+        </div>
+      </div>
+      <!-- Button to view resume -->
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1lWFwl4ND3911eTOn26xFY04bxUVg-FZU/view?usp=sharing" class="button" id="resume-button">Check out my Resume</a>
+      </div>
+      <!-- Slider to adjust content size -->
+      <div class="slider-container">
+        <label for="content-size">Adjust Content Size:</label>
+        <input type="range" id="content-size" min="1" max="1.5" step="0.25" value="0.5">
+      </div>
+      <!-- Toggle for dark mode -->
+      <div class="toggle-container">
+        <label for="dark-mode-toggle">Dark Mode:</label>
+        <input type="checkbox" id="dark-mode-toggle">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

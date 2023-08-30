@@ -1,0 +1,194 @@
+/* Reset default margin and padding for body, headings, and paragraphs */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    font-size: 14px;
+
+  }
+
+
+  /* Styling for the background */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.75;
+    padding: 0;
+   
+  }
+
+  /* Styling for light mode background gradient */
+  .light_mode_bg {
+      /* Background gradient colors for light mode */
+    background: linear-gradient(135deg, #38c78b, #3f51b5);
+
+    /* Box shadow for light mode */
+    box-shadow:
+	  inset #2136c2 0 0 0 5px, 
+    inset #059c8e 0 0 0 1px, 
+    inset #0cab9c 0 0 0 10px, 
+    inset #1fbdae 0 0 0 11px, 
+    inset #8ce9ff 0 0 0 16px, 
+    inset #48e4d6 0 0 0 17px, 
+    inset #e5f9f7 0 0 0 21px, 
+    inset #bfecf7 0 0 0 22px,
+    inset #2136c2 0 0 0 27px;
+  }
+
+  /* Styling for dark mode background gradient */
+  .dark_mode_bg {
+    /* Background gradient colors for dark mode */
+    background: linear-gradient(135deg, #b7c5c5, #333435);
+
+    /* Background gradient colors for dark mode */
+    box-shadow:
+	  inset #19191a 0 0 0 5px, 
+    inset #393a3a 0 0 0 1px, 
+    inset #606161 0 0 0 10px, 
+    inset #828584 0 0 0 11px, 
+    inset #393a3a 0 0 0 16px, 
+    inset #606161 0 0 0 17px, 
+    inset #828584 0 0 0 21px, 
+    inset #606161 0 0 0 22px,
+    inset #19191a 0 0 0 27px;
+
+  }
+
+
+  /* Styling for the page container */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Styling for the page container */
+  .light_mode_pc {
+    color: #2136c2;
+  }
+
+  /* Styling for the page container */
+  .dark_mode_pc {
+    color : #393a3a
+  }
+  
+  /* Styling for the profile picture container */
+  .profile-pic-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the profile picture */
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+
+/* Styling for light mode profile picture border */
+  .light_mode_pp {
+    border: 3px solid #3f51b5;
+  }
+
+  /* Styling for dark mode profile picture border */
+  .dark_mode_pp {
+    border: 3px solid #393a3a;
+  }
+
+
+  /* ... Additional styles ... */
+  .light_mode_pp:hover {
+    border: 3px solid #2136c2;
+  }
+
+  .dark_mode_pp:hover {
+    border: 3px solid #19191a; 
+  }
+
+
+  /* Styling for the card */
+  .card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 10px 0;
+    transform-origin: center;
+  }
+
+  /* Styling for light mode card border */
+  .light_mode_card {
+    border-color: #3f51b5;
+  }
+
+  /* Styling for dark mode card border */
+  .dark_mode_card {
+    border-color: #393a3a;
+  }
+
+  /* Styling for the content within the card */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Styling for the button container */
+  .button-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  
+  }
+  
+  /* Styling for the button */
+  .button {
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+
+  /* Styling for light mode button */
+  .light_mode_button {
+    background-color: #3f51b5;
+  }
+
+  /* Styling for dark mode button */
+  .dark_mode_button {
+    background-color: #393a3a;
+  }
+  
+  /* Styling for light mode button on hover */
+  .light_mode_button:hover {
+    background-color: #2136c2;
+  }
+
+  /* Styling for dark mode button on hover */
+  .dark_mode_button:hover {
+    background-color: #19191a;
+  }
+  
